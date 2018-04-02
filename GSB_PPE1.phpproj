@@ -1,0 +1,88 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>GSB_PPE1</Name>
+    <ProjectGuid>{d64c5699-31d3-450a-af70-b6123c84f449}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <SpecificPageValue>index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".settings\.jsdtscope" />
+    <Compile Include=".settings\org.eclipse.php.core.prefs" />
+    <Compile Include=".settings\org.eclipse.php.debug.core.Debug_Process_Preferences.prefs" />
+    <Compile Include=".settings\org.eclipse.php.server.core.phpServersPrefs.prefs" />
+    <Compile Include=".settings\org.eclipse.wst.common.project.facet.core.xml" />
+    <Compile Include=".settings\org.eclipse.wst.jsdt.ui.superType.container" />
+    <Compile Include=".settings\org.eclipse.wst.jsdt.ui.superType.name" />
+    <Compile Include="controleurs\c_accueil.php" />
+    <Compile Include="controleurs\c_connexion.php" />
+    <Compile Include="controleurs\c_deconnexion.php" />
+    <Compile Include="controleurs\c_etatFrais.php" />
+    <Compile Include="controleurs\c_gererFrais.php" />
+    <Compile Include="images\logo.jpg" />
+    <Compile Include="includes\class.pdogsb.inc.php" />
+    <Compile Include="includes\fct.inc.php" />
+    <Compile Include="nbproject\private\private.properties" />
+    <Compile Include="nbproject\project.properties" />
+    <Compile Include="nbproject\project.xml" />
+    <Compile Include="styles\bootstrap\bootstrap.css" />
+    <Compile Include="styles\fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="styles\fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="styles\fonts\glyphicons-halflings-regular.ttf" />
+    <Compile Include="styles\fonts\glyphicons-halflings-regular.woff" />
+    <Compile Include="styles\fonts\glyphicons-halflings-regular.woff2" />
+    <Compile Include="styles\style.css" />
+    <Compile Include="tests\gendatas\fonctions.php" />
+    <Compile Include="tests\gendatas\majGSB.php" />
+    <Compile Include="vues\v_accueil.php" />
+    <Compile Include="vues\v_accueil_comptable.php" />
+    <Compile Include="vues\v_accueil_visiteur.php" />
+    <Compile Include="vues\v_choisirFichesChoixEtat.php" />
+    <Compile Include="vues\v_choisirFichesOuvrir.php" />
+    <Compile Include="vues\v_choisirFichesValider.php" />
+    <Compile Include="vues\v_connexion.php" />
+    <Compile Include="vues\v_deconnexion.php" />
+    <Compile Include="vues\v_correctionElementsForfaitises.php" />
+    <Compile Include="vues\v_correctionElementsHorsForfaits.php" />
+    <Compile Include="vues\v_entete.php" />
+    <Compile Include="vues\v_erreurs.php" />
+    <Compile Include="vues\v_etatFrais.php" />
+    <Compile Include="vues\v_etatFrais_comptable.php" />
+    <Compile Include="vues\v_listeFraisForfait.php" />
+    <Compile Include="vues\v_listeFraisHorsForfait.php" />
+    <Compile Include="vues\v_listeMois.php" />
+    <Compile Include="vues\v_choisirFichesListeVisiteurs.php" />
+    <Compile Include="vues\v_menu_comptable.php" />
+    <Compile Include="vues\v_menu_visiteur.php" />
+    <Compile Include="vues\v_pied.php" />
+    <Compile Include=".buildpath" />
+    <Compile Include=".project" />
+    <Compile Include="index.php" />
+    <Compile Include="vues\v_choisirFichesListeMois.php" />
+    <Compile Include="vues\v_succes.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".settings" />
+    <Folder Include="controleurs" />
+    <Folder Include="images" />
+    <Folder Include="includes" />
+    <Folder Include="nbproject\private" />
+    <Folder Include="nbproject" />
+    <Folder Include="styles\bootstrap" />
+    <Folder Include="styles\fonts" />
+    <Folder Include="styles" />
+    <Folder Include="tests\gendatas" />
+    <Folder Include="tests" />
+    <Folder Include="vues" />
+  </ItemGroup>
+</Project>

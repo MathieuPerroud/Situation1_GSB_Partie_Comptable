@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "GSB_PPE1", "GSB_PPE1.phpproj", "{D64C5699-31D3-450A-AF70-B6123C84F449}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "GSB_PPE1.Tests", "GSB_PPE1.Tests\GSB_PPE1.Tests.phpproj", "{9B618BC4-4E1C-4C85-8120-C3DAAE124818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{B7BD9886-CBB6-4252-8252-5539B917D3B9}"
+	ProjectSection(SolutionItems) = preProject
+		phpunit.xml = phpunit.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64C5699-31D3-450A-AF70-B6123C84F449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64C5699-31D3-450A-AF70-B6123C84F449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B618BC4-4E1C-4C85-8120-C3DAAE124818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B618BC4-4E1C-4C85-8120-C3DAAE124818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C282ED3E-049A-43EE-AC97-961AF4222448}
+	EndGlobalSection
+EndGlobal
